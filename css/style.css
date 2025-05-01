@@ -1,3 +1,17 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: grey;
+}
+
+
 header {
   align-items: left;
   font-family: "Montserrat", sans-serif;
@@ -7,6 +21,8 @@ main {
   justify-content: center;
   align-items: center;
   padding: 15px;
+  flex: 1;
+  
 }
 main h1 {
   text-align: center;
@@ -81,9 +97,6 @@ nav ul li a:hover {
   width: 85%;
 }
 
-body {
-  background-color: grey;
-}
 body .autoaldia {
   display: flex;
   align-items: center;
@@ -138,6 +151,7 @@ body .pointer {
   }
 }
 
-.htmlstyle {
-  height: 100vh;
+.htmlstyle{
+  padding: 0;
+  margin: 0;
 }
